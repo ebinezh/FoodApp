@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ebi's Food</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="overflow: hidden">
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo">Ebi Logo</a>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+    </header>
+
+    <div class="container home">
+      <section class="flex">
+        <form method="post">
+          <h1>Login</h1>
+          <input
+            type="text"
+            name="E mail"
+            required
+            maxlength="50"
+            placeholder="Enter your email"
+            class="box"
+          />
+          <input
+            type="number"
+            name="number"
+            required
+            maxlength="9999999999"
+            placeholder="Enter your number"
+            class="box"
+          />
+          <input
+            type="password"
+            name="guests"
+            min="8"
+            max="20"
+            placeholder="Enter your password"
+            required
+            class="box"
+          />
+          <a href="home.html" class="btn">Login</a>
+        </form>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

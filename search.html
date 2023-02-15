@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ebi's Food</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="overflow: hidden">
+    <header class="header">
+      <section class="flex">
+        <a href="search.html" class="logo"
+          ><img src="/BP.png" height="50" alt=""
+        /></a>
+
+        <nav class="navbar">
+          <a href="search.html">home</a>
+          <a href="about.html">about</a>
+          <a href="Menu.html">Menu</a>
+          <a href="AddOn.html">Add-Ons</a>
+          <a href="contact.html">contact</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+    </header>
+
+    <div class="container search">
+      <section class="flex">
+        <form method="post">
+          <h1>Search Your Taste</h1>
+          <input
+            type="text"
+            name="your location"
+            required
+            maxlength="50"
+            placeholder="Your Choice"
+            class="box"
+          />
+          <input
+            type="text"
+            name="location"
+            required
+            maxlength="50"
+            placeholder="Enter your location"
+            class="box"
+          />
+
+          <!-- <input type="date" name="date" class="box" required> -->
+          <input
+            type="number"
+            name="guests"
+            min="1"
+            max="10"
+            maxlength="2"
+            placeholder="Number of Orders"
+            required
+            class="box"
+          />
+          <input type="submit" value="search Food" name="search" class="btn" />
+        </form>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
