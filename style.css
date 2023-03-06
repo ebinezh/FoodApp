@@ -7,7 +7,7 @@
     --light-bg:rgba(255,255,255,.1);
     --white:#fff;
     --black:#000;
-    background-image: url('/img1.jpg');
+    background-image: url('/assets/img1.jpg');
     
  }
 
@@ -118,7 +118,7 @@
  
  
  .search{
-   background-image: url('/img1.jpg');
+   background-image: url('/assets/img1.jpg');
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -162,7 +162,7 @@
  
 
  .about{
-   background-image: url('/about1.jpg');
+   background-image: url('/assets/about1.jpg');
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -254,7 +254,7 @@
   }
    
   .Menu{
-   background: url(/home01.jpg) ;
+   background: url(/assets/home01.jpg) ;
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -372,7 +372,7 @@
    }
 
    .contact{
-      background: url(/img1.jpg) ;
+      background: url(/assets/img1.jpg) ;
       background-position: center;
       background-attachment: fixed;
       background-size: cover;
